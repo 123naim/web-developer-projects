@@ -93,10 +93,13 @@ nav a {
 }
 
 /* main section style here */
+main{
+    width: 1040px;
+    margin: auto;
+}
 
 /* about section style here */
 .about-section {
-    width: 1040px;
     /* height: 550px; */
     background-color: #FFF8F3;
     margin: auto;
@@ -123,4 +126,31 @@ nav a {
 .about-footer>div{
     margin-right: 60px;
     
+}
+.about-footer>div>p{
+    margin-bottom: -15px;
+}
+
+/* What I do section start here */
+.what-do-section{
+    margin-top: 70px;
+    text-align: center;
+}
+.what-do-description{
+    font-size: 15px;
+}
+.skills{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    height: 275px;
+    background-color: #e2dada;
+    padding: 20px 30px 20px 20px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px gray;
+}
+.skills-desc{
+    font-size: 13px;
 }
