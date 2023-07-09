@@ -131,7 +131,7 @@ main{
     margin-bottom: -15px;
 }
 
-/* What I do section start here */
+/* What I do section style start here */
 .what-do-section{
     margin-top: 70px;
     text-align: center;
@@ -153,4 +153,58 @@ main{
 }
 .skills-desc{
     font-size: 13px;
+}
+
+/* summary section style start here */
+.summury-section{
+    position: relative;
+}
+.summury-title{
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top: 80px;
+}
+.summary-education-section{
+    display: flex;
+    gap: 40px;
+    text-align: left;
+}
+.education-section>h2{
+    margin-bottom: 30px;
+}
+.master{
+    border-bottom: 1px solid gray;
+    /* margin-bottom: 10px; */
+}
+.computer{
+    border-bottom: 1px solid gray;
+}
+#cv{
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 40px;
+}
+
+/* footer section style start here */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-child{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+}
+.footer-massage> h2, input,textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+.footer-content>p{
+    font-size: 15px;
+}
+.footer-content>img{
+    padding-right: 15px;
 }
